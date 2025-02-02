@@ -50,7 +50,7 @@ const user2 = [
 ]
 
 user2[1].email
-//console.log(user2);
+// console.log(user2[1].email);
 
 
 console.log(tinderUser);
@@ -60,5 +60,38 @@ console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('is_Active'));
 
 
+
+const course = {
+    name: "Js",
+    price: "499",
+}
+
+// course.name
+
+// const {price} = course
+// console.log(price);
+const {price:p} = course
+console.log(p);
+
+// const navber  = ({cname}) =>{ //destructure
+
+// }
+// navber(cname = "abc")  //in react
+
+
+
+
+//json
+// {
+//     "name":"shubhankar",
+//     "cname":"Js",   //api as a object
+//    "price":"199"
+// }
+
+// [
+//     {},
+//     {},       //api as a array,objects
+//     {}
+// ]
 
 
