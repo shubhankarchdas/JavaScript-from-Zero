@@ -30,3 +30,23 @@ if (userEmail) {
 //false == 0 ----> true
 //false == '' ----> true
 //0 == '' ----> true
+
+
+
+//Nullish Coalescing Operator (??) : null undefined
+
+let val1;
+val1 = 10 ?? 20
+// val1 = null ?? 20
+// val1 = undefined ?? 20
+
+
+console.log(val1);
+
+
+//Terniary Operator
+
+const price = 100
+price <= 50 ? console.log("less than 50") : console.log("more than 50");
+
+
